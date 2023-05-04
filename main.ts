@@ -3,12 +3,12 @@ basic.forever(function () {
 })
 basic.forever(function () {
     if (cuteBot.tracking(cuteBot.TrackingState.L_unline_R_line)) {
-        cuteBot.motors(57, 9)
+        cuteBot.motors(60, 10)
     }
     if (cuteBot.tracking(cuteBot.TrackingState.L_line_R_unline)) {
-        cuteBot.motors(11, 56)
+        cuteBot.motors(15, 55)
     }
     if (cuteBot.tracking(cuteBot.TrackingState.L_R_line)) {
-        cuteBot.motors(53, 51)
+        cuteBot.motors(58, 50)
     }
 })
